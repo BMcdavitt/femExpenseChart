@@ -1,0 +1,61 @@
+.Spending {
+  background-color: hsl(33deg, 100%, 98%);
+  border-radius: 0.625rem;
+  padding: 1.3125rem;
+}
+.Spending h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5625rem 0;
+}
+@media (min-width: 46.875rem) {
+  .Spending h1 {
+    font-size: 2rem;
+  }
+}
+.Spending hr {
+  border: 0.0625rem solid hsl(27deg, 66%, 92%);
+  margin: 0.625rem 0;
+}
+.Spending .Totals {
+  display: flex;
+  font-size: 0.9375rem;
+  letter-spacing: 0.16px;
+  color: hsl(28deg, 10%, 53%);
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media (min-width: 46.875rem) {
+  .Spending .Totals {
+    font-size: 1.125rem;
+  }
+}
+.Spending .Totals .Totals_text {
+  margin: 0.3125rem 0;
+}
+.Spending .Totals .Totals_dollars {
+  font-weight: bold;
+  font-size: 1.8125rem;
+  color: hsl(25deg, 47%, 15%);
+}
+@media (min-width: 46.875rem) {
+  .Spending .Totals .Totals_dollars {
+    font-size: 2.875rem;
+  }
+}
+.Spending .Totals .Totals_percent {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: bold;
+}
+.Spending .Totals .Totals_right {
+  text-align: end;
+}
+.Spending .Graph {
+  height: 14.0625rem;
+  width: 20.3125rem;
+}
+@media (min-width: 46.875rem) {
+  .Spending .Graph {
+    width: 33.75rem;
+  }
+}/*# sourceMappingURL=Spending.css.map */

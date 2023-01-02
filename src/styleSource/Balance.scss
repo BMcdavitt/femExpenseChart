@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'responsive';
+
+.Balance {
+    background-color: $SoftRed;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+
+    color: $VeryPaleOrange;
+
+    font-size: 0.9375rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    @include desktop {
+        font-size: 1.125rem;
+    }
+
+    .Value {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0.3125rem 0 0.3125rem 0;
+
+        @include desktop {
+            font-size: 2rem;    
+        }
+    }
+}

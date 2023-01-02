@@ -1,0 +1,71 @@
+@import 'variables';
+@import 'responsive';
+
+.Spending {
+    background-color: $VeryPaleOrange;
+
+    border-radius: 0.625rem;
+    padding: 1.3125rem;
+
+    h1 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.5625rem 0;
+
+        @include desktop {
+            font-size: 2rem;
+        }
+    }
+
+    hr {
+        border: 0.0625rem solid $Cream;
+        margin: 0.625rem 0;
+    }
+
+    .Totals {
+        display: flex;
+        font-size: 0.9375rem;
+        letter-spacing: 0.16px;
+        color: $MediumBrown;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        @include desktop {
+            font-size: 1.125rem;
+        }
+
+        .Totals_text {
+            margin: 0.3125rem 0;
+        }
+
+        .Totals_dollars {
+            font-weight: bold;
+            font-size: 1.8125rem;
+            color: $DarkBrown;
+
+            @include desktop {
+                font-size: 2.875rem;
+            }
+        }
+
+        .Totals_percent {
+            color: $DarkBrown;
+            font-weight: bold;
+        }
+
+        .Totals_right {
+            
+            text-align: end;
+        }
+    }
+
+    .Graph {
+        height: 14.0625rem;
+        width: 20.3125rem;
+
+        @include desktop {
+            width: 33.75rem;
+        }
+    }
+
+}

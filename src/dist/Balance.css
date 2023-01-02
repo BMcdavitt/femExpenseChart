@@ -1,0 +1,24 @@
+.Balance {
+  background-color: hsl(10deg, 79%, 65%);
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  color: hsl(33deg, 100%, 98%);
+  font-size: 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 46.875rem) {
+  .Balance {
+    font-size: 1.125rem;
+  }
+}
+.Balance .Value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.3125rem 0 0.3125rem 0;
+}
+@media (min-width: 46.875rem) {
+  .Balance .Value {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=Balance.css.map */
