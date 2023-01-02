@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/BMcdavitt/femExpenseChart/tree/master](https://github.com/BMcdavitt/femExpenseChart/tree/master)
+- Live Site URL: [https://bmcdavitt.github.io/femExpenseChart/](https://bmcdavitt.github.io/femExpenseChart/)
 
 ### Built with
 
@@ -44,6 +44,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [SASS](https://sass-lang.com/) - Syntatically Awesome Style Sheet
 - [React](https://reactjs.org/) - React Framework
 - [ChartJS](https://www.chartjs.org/docs/latest/) - Chart JS
 
