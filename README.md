@@ -42,7 +42,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [SASS](https://sass-lang.com/) - Syntatically Awesome Style Sheet
 - [React](https://reactjs.org/) - React Framework
